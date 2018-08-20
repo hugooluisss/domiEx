@@ -1,0 +1,1 @@
+CargoLink: [*transportista.razonsocial*] se encuentra en ruta para atender la carga con folio [*folio*], te mantendremos informado

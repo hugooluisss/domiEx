@@ -1,0 +1,45 @@
+.modal{
+	@color-letra: #88969d;
+	
+	&.modal-limpia{
+		color: @color-letra;
+		.modal-header{
+			border: none;
+		}
+		
+		form{
+			.row{
+				margin-top: 20px;
+			}
+			
+			input, textarea, select{
+				border: none;
+				border-bottom: 1px solid @color-letra;
+				border-radius: inherit;
+				color: @color-letra;
+			}
+			
+			.input-group{
+				.input-group-append{
+					.input-group-text{
+						border: none;
+						border-bottom: 1px solid @color-letra;
+						background: none;
+						border-radius: inherit;
+					}
+				}
+			}
+		}
+	}
+	
+	.row{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.modal-backdrop{
+	&.show{
+		opacity: 0.9;
+	}
+}

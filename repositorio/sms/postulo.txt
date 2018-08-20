@@ -1,0 +1,1 @@
+CargoLink: El transportista [*transportista.razonsocial*] está interesado en tu carga registrada con el folio [*folio*]. Entra para ver los detalles

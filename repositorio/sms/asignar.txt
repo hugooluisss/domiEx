@@ -1,0 +1,1 @@
+CargoLink: Se ha asignado la carga con el folio [*folio*] a el transportista [*transportista.razonsocial*]. Entra para ver los detalles

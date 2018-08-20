@@ -1,0 +1,1 @@
+CargoLink: Tu orden de carga quedó registrada en nuestro sistema con el folio [*folio*]

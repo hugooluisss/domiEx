@@ -1,0 +1,1 @@
+CargoLink: [*transportista.razonsocial*] ha llegado a la dirección de destino indicada en la carga con folio [*transportista.razonsocial*]. Entra para ver los detalles
