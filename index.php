@@ -43,14 +43,14 @@ if ($objModulo->requiereSeguridad()){
 		unset($objModulo);
 		$objModulo = new TModulo($modulo);
 	}
-	
+
 	if(!$objModulo->userCanSee($sesion['perfil'])){
 		$bandSesion = false;
 		$modulo = MODULO_DEFECTO;
 		unset($objModulo);
 		$objModulo = new TModulo($modulo);
 	}
-	
+
 }else
 	$bandSesion = isset($sesion['usuario']);
 
@@ -101,7 +101,7 @@ foreach($_GET as $indice => $valor){
 	#$_GET[$indice] = stripslashes($_GET[$indice]);
 	#$_GET[$indice] = ereg_replace("'", "''", $_GET[$indice]);
 }
-	
+
 foreach($_POST as $indice => $valor){
 	if ($objModulo->getDebugSeguridad())
 		$_POST[$indice] = addslashes($_POST[$indice]);

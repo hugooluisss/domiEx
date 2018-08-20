@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2018-08-14 22:29:53
+<?php /* Smarty version Smarty-3.1.11, created on 2018-08-20 10:18:34
          compiled from "templates/plantillas/modulos/frontend/winRegistroCarga.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2829024965b739e31112dd3-40477376%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '332b2c9af26938544ea3453b58076415240cc828' => 
     array (
       0 => 'templates/plantillas/modulos/frontend/winRegistroCarga.tpl',
-      1 => 1531407027,
+      1 => 1534777803,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.11',
+  'unifunc' => 'content_5b739e31141382_57894319',
   'variables' => 
   array (
     'PAGE' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'item' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_5b739e31141382_57894319',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5b739e31141382_57894319')) {function content_5b739e31141382_57894319($_smarty_tpl) {?><div class="modal modal-limpia" tabindex="-1" role="dialog" id="winRegistraCarga">
 	<form id="frmRegistraCarga" onsubmit="javascript: return false;">

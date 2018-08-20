@@ -1,5 +1,5 @@
 RewriteEngine on
-RewriteBase /cargolink-web/
+RewriteBase /domiExpress/
 
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
