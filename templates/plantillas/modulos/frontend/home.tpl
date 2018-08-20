@@ -1,36 +1,19 @@
 <div class="container">
 	<div class="row">
-		<div class="col-12 col-sm-7">
-			<div class="card card-transparente">
-				<div class="card-body">
-					<h2>LOGISTICA INTELIGENTE</h2>
-					Agil - seguro - confiable - sustentable
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-5">
+		<div class="col-12 col-sm-6 offset-sm-3">
+			<img src="{$PAGE.iconos}logo.png" class="img-fluid" />
 			<div class="card card-default">
 				<div class="card-body">
-					<form id="frmRegistroTransportista">
+					<form id="frmRegistro" class="registroFrontEnd">
 						<div class="row">
 							<div class="col-xs-12">
-								<h3>Forma parte de nuestro equipo de trabajo</h3>
+								<h3>Registro de cliente</h3>
 							</div>
 						</div>
 						<br />
 						<div class="row">
 							<div class="col-md-12">
-								<input id="txtRazonSocial" name="txtRazonSocial" class="form-control" placeholder="Razón social" />
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<input id="txtRepresentante" name="txtRepresentante" class="form-control" placeholder="Representante" />
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<input id="txtTelefono" name="txtTelefono" class="form-control" placeholder="Teléfono" />
+								<input id="txtRazonSocial" name="txtRazonSocial" class="form-control" placeholder="Nombre de la empresa" />
 							</div>
 						</div>
 						<div class="row">
@@ -38,14 +21,23 @@
 								<input type="email" id="txtCorreo" name="txtCorreo" class="form-control" placeholder="Correo electrónico" />
 							</div>
 						</div>
-						
 						<div class="row">
 							<div class="col-md-12">
-								<input type="password" id="txtPass2" name="txtPass2" class="form-control" placeholder="Contraseña" />
+								<input type="password" id="txtPass" name="txtPass" class="form-control" placeholder="Contraseña" />
 							</div>
 						</div>
-						<div class="text-center">
-							<button type="submit" class="btn btn-link">Registrarte</button>
+						<div class="row">
+							<div class="col-md-12">
+								<input type="password" id="txtPass2" name="txtPass2" class="form-control" placeholder="Confirma" />
+							</div>
+						</div>
+						<br />
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<button type="submit" class="btn btn-primary">Registrar</button>
+								<br /><br />
+								<a href="login">¿Ya tienes una cuenta? inicia sesión</a>
+							</div>
 						</div>
 					</form>
 				</div>
