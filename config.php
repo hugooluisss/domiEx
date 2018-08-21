@@ -13,14 +13,14 @@ define('LAYOUT_AJAX', 'layout/update.tpl');
 define('LAYOUT_JSON', 'layout/json.tpl');
 
 #Login y su controlador
-$conf['inicio'] = array(
-	'vista' => 'frontend/home.tpl',
+$conf['runnersregistro'] = array(
+	'vista' => 'frontend/registroRunners.tpl',
 	'controlador' => 'frontend.php',
 	'titulo' => 'Bienvenido',
 	'descripcion' => 'Bienvenido',
 	'seguridad' => false,
-	'js' => array('orden.class.js', 'usuario.class.js'),
-	'jsTemplate' => array('home.js', 'login.js'),
+	'js' => array('runner.class.js'),
+	'jsTemplate' => array('runners.frontend.js'),
 	'capa' => LAYOUT_FRONTEND);
 
 $conf['logout'] = array(
@@ -29,13 +29,13 @@ $conf['logout'] = array(
 	'seguridad' => false,
 	'js' => array(),
 	'capa' => LAYOUT_AJAX);
-	
+
 $conf['clogin'] = array(
 	'controlador' => 'login.php',
 	'descripcion' => 'Inicio de sesion',
 	'seguridad' => false,
 	'capa' => LAYOUT_JSON);
-	
+
 $conf['route'] = array(
 	'controlador' => 'login.php',
 	'descripcion' => 'Determina hacia donde mandar a los usuarios una vez que se inicia sesión',

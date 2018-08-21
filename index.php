@@ -11,7 +11,7 @@ if(!isset($_POST['movil']) and $_SERVER['SERVER_PORT'] == 80 and $ini['sistema']
 include('librerias/funciones.php');
 include_once("config.php");
 
-define("MODULO_DEFECTO", 'inicio');
+define("MODULO_DEFECTO", 'runnersregistro');
 define("MODULO_SESION_INICIADA", 'panelPrincipal');
 define("SISTEMA", $ini['sistema']['acronimoEmpresa']);
 

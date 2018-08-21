@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2018-08-20 13:44:01
+<?php /* Smarty version Smarty-3.1.11, created on 2018-08-21 13:45:30
          compiled from "templates/plantillas/layout/frontend.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1432607345b739e30ccb1d7-09203037%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'effc1585595657aaacf5149767168fa8be74b164' => 
     array (
       0 => 'templates/plantillas/layout/frontend.tpl',
-      1 => 1534790597,
+      1 => 1534877128,
       2 => 'file',
     ),
   ),
@@ -44,8 +44,11 @@ build/style.less" />
 		<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['PAGE']->value['ruta'];?>
 plugins/fontawesome/css/all.css" />
 
-		<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $_smarty_tpl->tpl_vars['PAGE']->value['inisistema']['maps']['key'];?>
-"></script>
+
+		<meta http-equiv="Expires" content="0">
+		<meta http-equiv="Last-Modified" content="0">
+		<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+		<meta http-equiv="Pragma" content="no-cache">
 	</head>
 	<body layout="home">
 		<div id="modulo">

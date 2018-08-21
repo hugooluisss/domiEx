@@ -7,18 +7,23 @@
 					<form id="frmRegistro" class="registroFrontEnd">
 						<div class="row">
 							<div class="col-xs-12">
-								<h3>Registro de cliente</h3>
+								<h3>¿Quieres ser un Runner?</h3>
 							</div>
 						</div>
 						<br />
 						<div class="row">
 							<div class="col-md-12">
-								<input id="txtRazonSocial" name="txtRazonSocial" class="form-control" placeholder="Nombre de la empresa" />
+								<input id="txtNombre" name="txtNombre" class="form-control" placeholder="Tu nombre" />
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
 								<input type="email" id="txtCorreo" name="txtCorreo" class="form-control" placeholder="Correo electrónico" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<input type="tel" id="txtTelefono" name="txtTelefono" class="form-control" placeholder="Teléfono" />
 							</div>
 						</div>
 						<div class="row">

@@ -13,7 +13,11 @@
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
 		<link rel="stylesheet" href="{$PAGE.ruta}plugins/fontawesome/css/all.css" />
 
-		<script src="https://maps.googleapis.com/maps/api/js?key={$PAGE.inisistema.maps.key}"></script>
+
+		<meta http-equiv="Expires" content="0">
+		<meta http-equiv="Last-Modified" content="0">
+		<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+		<meta http-equiv="Pragma" content="no-cache">
 	</head>
 	<body layout="home">
 		<div id="modulo">
